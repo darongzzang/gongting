@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-import logo from './logo.svg';
-=======
-// import logo from './logo.svg';
->>>>>>> ebd7074c9aade010e0d33ee5289369469bb0b975
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-=======
       <div className="Logo">
       <svg width="360" height="242" viewBox="0 0 360 242" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M343.166 61.793C333.72 61.793 325.311 67.1587 319.843 75.533C314.374 67.1673 305.957 61.793 296.52 61.793C280.037 61.793 266.674 78.1301 266.674 98.2815C266.674 125.71 319.851 157.15 319.851 157.15C319.851 157.15 373.029 125.71 373.029 98.2815C373.011 78.1301 359.649 61.793 343.166 61.793Z" stroke="#CBC7FF" stroke-miterlimit="10"/>
@@ -77,7 +56,6 @@ function App() {
         </div>
       </div>
       </div>
->>>>>>> ebd7074c9aade010e0d33ee5289369469bb0b975
     </div>
   );
 }
