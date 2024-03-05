@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Pretendard;
+  }
+
+  .LoginLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .LoginLogoTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .LoginLogoTop svg {
+    width: 70px;
+    height: 47.002px;
+  }
+  .LoginLogoTop p{
+    color: var(--Colors-main-color, #6869FF);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .LoginLogoBtm {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .LoginLogoBtm p {
+    color: var(--Grays-gray900, #212121);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+  }
+  .LoginLogoBtm a {
+    align-self: stretch;
+    color: var(--Grays-gray900, #212121);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    letter-spacing: -0.6px;
+    text-decoration-line: underline;
+  }

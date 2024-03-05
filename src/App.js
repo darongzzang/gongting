@@ -46,7 +46,7 @@ function App() {
           <p id='mainText'>지금 공팅으로 새로운 인연을 찾아보세요!ㅤ</p>
         </div>
         <div className="goTextBox">
-          <a href=''>새로운 인연 찾기
+          <a href='./Login.js'>새로운 인연 찾기
             <div id='right-arrow'>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <path d="M10 6L15.6569 11.6569L10 17.3137" stroke="#6869FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
